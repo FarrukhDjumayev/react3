@@ -77,8 +77,8 @@ const App = () => {
       <div className="mt-6 w-full max-w-3xl">
         <table className="w-full bg-white/30 backdrop-blur-md shadow-lg rounded-lg overflow-hidden">
           <thead>
-            <tr className="bg-blue-600 text-white">
-              <th className="p-3">#</th>
+            <tr className="bg-green-700 text-white">
+              <th className="p-3"></th>
               <th className="p-3">Kitob Nomi</th>
               <th className="p-3">Muallif</th>
               <th className="p-3">Yili</th>
@@ -87,7 +87,7 @@ const App = () => {
           </thead>
           <tbody>
             {books.map((item, index) => (
-              <tr key={index} className="border-b border-blue-600">
+              <tr key={index} className="border-b border-red-600">
                 <td className="p-3 text-center">{index + 1}</td>
                 <td className="p-3">{item.name}</td>
                 <td className="p-3">{item.author}</td>
